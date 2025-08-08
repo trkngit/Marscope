@@ -18,4 +18,10 @@ Pods/
 GoogleService-Info.plist
 
 # Logs
+# Firebase/Secrets
+GoogleService-Info.plist
+
+# Node
+node_modules/
+.wrangler/
 *.log
