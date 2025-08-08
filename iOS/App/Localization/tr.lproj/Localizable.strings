@@ -1,0 +1,51 @@
+/* Tabs */
+"tab_today" = "Bugün";
+"tab_periods" = "Dönemler";
+"tab_settings" = "Ayarlar";
+
+/* Titles */
+"title_today" = "Bugün";
+"title_periods" = "Burç Dönemleri";
+"title_settings" = "Ayarlar";
+"mars_vibe_today" = "Bugünün Mars Havası";
+
+/* Vibe */
+"vibe_cold_title" = "Derin Soğuk Odak";
+"vibe_cold_sub" = "Enerjini koru; finansını düzenle.";
+"vibe_swings_title" = "Vahşi Dalgalanma";
+"vibe_swings_sub" = "Yaratıcılığı benimse; sürprizlere hazır ol.";
+"vibe_structure_title" = "Düzen Kazanır";
+"vibe_structure_sub" = "Uzun vadeyi planla ve söz ver.";
+"vibe_calm_title" = "Sakin Yörüngeler";
+"vibe_calm_sub" = "İstikrarlı ilerleme ve net konuşmalar.";
+
+/* Weather format */
+"temp_range_fmt" = "%d° – %d° C";
+"pressure_fmt" = "Basınç %d Pa";
+"wind_fmt" = "Rüzgar %d m/s";
+
+/* Buttons */
+"retry" = "Tekrar Dene";
+"enable_notifications" = "Bildirimleri etkinleştir";
+
+/* Notifications */
+"notif_title" = "Marscope";
+"notif_body" = "Mars yorumun hazır.";
+
+/* Settings */
+"section_notifications" = "Bildirimler";
+"toggle_daily" = "Günlük uyarı";
+"daily_time_fmt" = "%02d:00'da gönder";
+"btn_request_perm" = "Bildirim izni ver";
+
+/* Legal */
+"section_legal" = "Hukuki";
+"disclaimer_title" = "Sadece Eğlence";
+"disclaimer_body" = "Bu uygulama yalnızca eğlence amaçlıdır. Astrolojik yorumlar kurgusaldır ve bilimsel olarak doğrulanmış değildir.";
+"accept_continue" = "Anladım";
+
+/* Mock lines */
+"mock_line_1" = "Sohbetler akıyor; nazik dürüstlük seç.";
+"mock_line_2" = "Küçük finansal kazançlar istikrarlı ellere gider.";
+"mock_line_3" = "Öğrenme ve dinlenmeye yer aç.";
+"contact_support" = "Destek ile iletişime geç";

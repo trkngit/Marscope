@@ -6,6 +6,25 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		291C42222E460BB300D61F42 /* AppIcon_1024.png in Resources */ = {isa = PBXBuildFile; fileRef = 291C42042E460BB300D61F42 /* AppIcon_1024.png */; };
+		291C42232E460BB300D61F42 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 291C420A2E460BB300D61F42 /* Localizable.strings */; };
+		291C42252E460BB300D61F42 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 291C42132E460BB300D61F42 /* RootView.swift */; };
+		291C42262E460BB300D61F42 /* NotificationScheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 291C420F2E460BB300D61F42 /* NotificationScheduler.swift */; };
+		291C42282E460BB300D61F42 /* MarsWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 291C420C2E460BB300D61F42 /* MarsWeather.swift */; };
+		291C42292E460BB300D61F42 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 291C420E2E460BB300D61F42 /* APIClient.swift */; };
+		291C422A2E460BB300D61F42 /* MarscopeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 291C42172E460BB300D61F42 /* MarscopeApp.swift */; };
+		291C422B2E460BB300D61F42 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 291C42142E460BB300D61F42 /* SettingsView.swift */; };
+		291C422C2E460BB300D61F42 /* DisclaimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 291C42062E460BB300D61F42 /* DisclaimerView.swift */; };
+		291C422D2E460BB300D61F42 /* TodayViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 291C42112E460BB300D61F42 /* TodayViewModel.swift */; };
+		291C422E2E460BB300D61F42 /* TodayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 291C42152E460BB300D61F42 /* TodayView.swift */; };
+		291C42302E460BB900D61F42 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 291C422F2E460BB900D61F42 /* README.md */; };
+		291C42332E4611ED00D61F42 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 291C42322E4611ED00D61F42 /* GoogleService-Info.plist */; };
+		291C42362E46141500D61F42 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 291C42352E46141500D61F42 /* FirebaseAnalytics */; };
+		291C42382E46141500D61F42 /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = 291C42372E46141500D61F42 /* FirebaseCrashlytics */; };
+		291C423C2E4618CB00D61F42 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 291C423B2E4618C300D61F42 /* .gitignore */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		291C41CE2E460AD400D61F42 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +46,22 @@
 		291C41C02E460AD200D61F42 /* Marscope.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Marscope.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		291C41CD2E460AD400D61F42 /* MarscopeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarscopeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		291C41D72E460AD400D61F42 /* MarscopeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarscopeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		291C42042E460BB300D61F42 /* AppIcon_1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppIcon_1024.png; sourceTree = "<group>"; };
+		291C42062E460BB300D61F42 /* DisclaimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisclaimerView.swift; sourceTree = "<group>"; };
+		291C42082E460BB300D61F42 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		291C42092E460BB300D61F42 /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		291C420C2E460BB300D61F42 /* MarsWeather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarsWeather.swift; sourceTree = "<group>"; };
+		291C420E2E460BB300D61F42 /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		291C420F2E460BB300D61F42 /* NotificationScheduler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationScheduler.swift; sourceTree = "<group>"; };
+		291C42112E460BB300D61F42 /* TodayViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewModel.swift; sourceTree = "<group>"; };
+		291C42132E460BB300D61F42 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		291C42142E460BB300D61F42 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		291C42152E460BB300D61F42 /* TodayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayView.swift; sourceTree = "<group>"; };
+		291C42172E460BB300D61F42 /* MarscopeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarscopeApp.swift; sourceTree = "<group>"; };
+		291C42192E460BB300D61F42 /* MarscopeWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarscopeWidget.swift; sourceTree = "<group>"; };
+		291C422F2E460BB900D61F42 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		291C42322E4611ED00D61F42 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		291C423B2E4618C300D61F42 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -34,6 +69,7 @@
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = Marscope;
 			sourceTree = "<group>";
+			usesTabs = 0;
 		};
 		291C41D02E460AD400D61F42 /* MarscopeTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
@@ -52,6 +88,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				291C42362E46141500D61F42 /* FirebaseAnalytics in Frameworks */,
+				291C42382E46141500D61F42 /* FirebaseCrashlytics in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,10 +113,14 @@
 		291C41B72E460AD200D61F42 = {
 			isa = PBXGroup;
 			children = (
+				291C423B2E4618C300D61F42 /* .gitignore */,
 				291C41C22E460AD200D61F42 /* Marscope */,
 				291C41D02E460AD400D61F42 /* MarscopeTests */,
 				291C41DA2E460AD400D61F42 /* MarscopeUITests */,
 				291C41C12E460AD200D61F42 /* Products */,
+				291C421B2E460BB300D61F42 /* iOS */,
+				291C422F2E460BB900D61F42 /* README.md */,
+				291C42322E4611ED00D61F42 /* GoogleService-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -90,6 +132,97 @@
 				291C41D72E460AD400D61F42 /* MarscopeUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		291C42052E460BB300D61F42 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				291C42042E460BB300D61F42 /* AppIcon_1024.png */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		291C42072E460BB300D61F42 /* Legal */ = {
+			isa = PBXGroup;
+			children = (
+				291C42062E460BB300D61F42 /* DisclaimerView.swift */,
+			);
+			path = Legal;
+			sourceTree = "<group>";
+		};
+		291C420B2E460BB300D61F42 /* Localization */ = {
+			isa = PBXGroup;
+			children = (
+				291C420A2E460BB300D61F42 /* Localizable.strings */,
+			);
+			path = Localization;
+			sourceTree = "<group>";
+		};
+		291C420D2E460BB300D61F42 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				291C420C2E460BB300D61F42 /* MarsWeather.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		291C42102E460BB300D61F42 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				291C420E2E460BB300D61F42 /* APIClient.swift */,
+				291C420F2E460BB300D61F42 /* NotificationScheduler.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		291C42122E460BB300D61F42 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				291C42112E460BB300D61F42 /* TodayViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		291C42162E460BB300D61F42 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				291C42132E460BB300D61F42 /* RootView.swift */,
+				291C42142E460BB300D61F42 /* SettingsView.swift */,
+				291C42152E460BB300D61F42 /* TodayView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		291C42182E460BB300D61F42 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				291C42052E460BB300D61F42 /* Assets */,
+				291C42072E460BB300D61F42 /* Legal */,
+				291C420B2E460BB300D61F42 /* Localization */,
+				291C420D2E460BB300D61F42 /* Models */,
+				291C42102E460BB300D61F42 /* Services */,
+				291C42122E460BB300D61F42 /* ViewModels */,
+				291C42162E460BB300D61F42 /* Views */,
+				291C42172E460BB300D61F42 /* MarscopeApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		291C421A2E460BB300D61F42 /* Widget */ = {
+			isa = PBXGroup;
+			children = (
+				291C42192E460BB300D61F42 /* MarscopeWidget.swift */,
+			);
+			path = Widget;
+			sourceTree = "<group>";
+		};
+		291C421B2E460BB300D61F42 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				291C42182E460BB300D61F42 /* App */,
+				291C421A2E460BB300D61F42 /* Widget */,
+			);
+			path = iOS;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -112,6 +245,8 @@
 			);
 			name = Marscope;
 			packageProductDependencies = (
+				291C42352E46141500D61F42 /* FirebaseAnalytics */,
+				291C42372E46141500D61F42 /* FirebaseCrashlytics */,
 			);
 			productName = Marscope;
 			productReference = 291C41C02E460AD200D61F42 /* Marscope.app */;
@@ -175,6 +310,7 @@
 				TargetAttributes = {
 					291C41BF2E460AD200D61F42 = {
 						CreatedOnToolsVersion = 16.4;
+						LastSwiftMigration = 1640;
 					};
 					291C41CC2E460AD400D61F42 = {
 						CreatedOnToolsVersion = 16.4;
@@ -192,9 +328,13 @@
 			knownRegions = (
 				en,
 				Base,
+				tr,
 			);
 			mainGroup = 291C41B72E460AD200D61F42;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				291C42342E46141500D61F42 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 291C41C12E460AD200D61F42 /* Products */;
 			projectDirPath = "";
@@ -212,6 +352,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				291C42222E460BB300D61F42 /* AppIcon_1024.png in Resources */,
+				291C42232E460BB300D61F42 /* Localizable.strings in Resources */,
+				291C42332E4611ED00D61F42 /* GoogleService-Info.plist in Resources */,
+				291C42302E460BB900D61F42 /* README.md in Resources */,
+				291C423C2E4618CB00D61F42 /* .gitignore in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,6 +381,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				291C42252E460BB300D61F42 /* RootView.swift in Sources */,
+				291C42262E460BB300D61F42 /* NotificationScheduler.swift in Sources */,
+				291C42282E460BB300D61F42 /* MarsWeather.swift in Sources */,
+				291C42292E460BB300D61F42 /* APIClient.swift in Sources */,
+				291C422A2E460BB300D61F42 /* MarscopeApp.swift in Sources */,
+				291C422B2E460BB300D61F42 /* SettingsView.swift in Sources */,
+				291C422C2E460BB300D61F42 /* DisclaimerView.swift in Sources */,
+				291C422D2E460BB300D61F42 /* TodayViewModel.swift in Sources */,
+				291C422E2E460BB300D61F42 /* TodayView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,6 +421,18 @@
 			targetProxy = 291C41D82E460AD400D61F42 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		291C420A2E460BB300D61F42 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				291C42082E460BB300D61F42 /* en */,
+				291C42092E460BB300D61F42 /* tr */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		291C41DF2E460AD400D61F42 /* Debug */ = {
@@ -395,11 +561,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = Marscope/MarscopeDebug.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = SCX8LHNYXZ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -410,9 +579,10 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.reddunelabs.marscope.Marscope;
+				PRODUCT_BUNDLE_IDENTIFIER = com.reddunelabs.marscope;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -423,11 +593,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = SCX8LHNYXZ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -438,7 +610,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.reddunelabs.marscope.Marscope;
+				PRODUCT_BUNDLE_IDENTIFIER = com.reddunelabs.marscope;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -558,6 +730,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		291C42342E46141500D61F42 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 12.1.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		291C42352E46141500D61F42 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 291C42342E46141500D61F42 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		291C42372E46141500D61F42 /* FirebaseCrashlytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 291C42342E46141500D61F42 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCrashlytics;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 291C41B82E460AD200D61F42 /* Project object */;
 }

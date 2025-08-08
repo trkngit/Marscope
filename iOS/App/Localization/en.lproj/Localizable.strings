@@ -1,0 +1,51 @@
+/* Tabs */
+"tab_today" = "Today";
+"tab_periods" = "Periods";
+"tab_settings" = "Settings";
+
+/* Titles */
+"title_today" = "Today";
+"title_periods" = "Horoscope Periods";
+"title_settings" = "Settings";
+"mars_vibe_today" = "Today’s Mars Vibe";
+
+/* Vibe */
+"vibe_cold_title" = "Deep Freeze Focus";
+"vibe_cold_sub" = "Conserve energy; tidy your finances.";
+"vibe_swings_title" = "Wild Swings";
+"vibe_swings_sub" = "Embrace creativity; expect surprises.";
+"vibe_structure_title" = "Structure Wins";
+"vibe_structure_sub" = "Plan long-term and commit.";
+"vibe_calm_title" = "Calm Orbits";
+"vibe_calm_sub" = "Steady progress and clear talks.";
+
+/* Weather format */
+"temp_range_fmt" = "%d° to %d° C";
+"pressure_fmt" = "Pressure %d Pa";
+"wind_fmt" = "Wind %d m/s";
+
+/* Buttons */
+"retry" = "Retry";
+"enable_notifications" = "Enable notifications";
+
+/* Notifications */
+"notif_title" = "Marscope";
+"notif_body" = "Your Martian horoscope is ready.";
+
+/* Settings */
+"section_notifications" = "Notifications";
+"toggle_daily" = "Daily alert";
+"daily_time_fmt" = "Send at %02d:00";
+"btn_request_perm" = "Allow notifications";
+
+/* Legal */
+"section_legal" = "Legal";
+"disclaimer_title" = "Entertainment Only";
+"disclaimer_body" = "This app is for entertainment purposes only. The astrological interpretations are fictional and not scientifically validated.";
+"accept_continue" = "I Understand";
+
+/* Mock lines */
+"mock_line_1" = "Conversations flow; choose gentle honesty.";
+"mock_line_2" = "Small financial wins favor steady hands.";
+"mock_line_3" = "Make room for learning and rest.";
+"contact_support" = "Contact support";
